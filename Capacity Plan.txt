@@ -1,0 +1,23 @@
+Capacity Planning Storage Backup di Lingkungan Infrastruktur Perbankan
+
+1. Latar Belakang Masalah
+File backup harian yang terus bertumbuh, menyebabkan capacity plan harus diperhitungkan dengan cermat.
+Storage 3 TB yang awalnya terlihat cukup untuk penyimpanan selama 1 tahun, ternyata bisa penuh lebih cepat dari perkiraan.
+
+2. Data Awal
+Size file backup saat ini : 13 GB per hari
+Retention : 365 hari
+Storage tersedia : 3 TB
+
+3. Perhitungan
+Size file backup tgl 1 Jan 2026 : 8 GB
+Size file backup tgl 1 Jun 2026 : 13 GB
+Retention : 151 hari
+
+4. Hasil Perhitungan
+Storage 3 TB yang disiapkan ternyata tidak cukup.
+Diperlukan minimal 5 TB untuk memenuhi target retention tahun 2026.
+
+5. Lesson Learned
+Jangan hanya melihat kapasitas saat ini.
+Perhatikan laju pertumbuhan data dan kebutuhan bisnis di masa depan
